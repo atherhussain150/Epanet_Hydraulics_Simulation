@@ -32,8 +32,8 @@ module.exports = router;
 function Login() {
   var token = "";
   axios.post('http://iot4h2o.mv.uni-kl.de:8080/api/auth/login', {
-    username: 'ather@zwgs.de',
-    password: 'Cybershot4!'
+    username: 'xxxxx',
+    password: 'xxxxx'
   })
     .then(function (response) {
       if (response.data.token) {
